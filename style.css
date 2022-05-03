@@ -5,6 +5,9 @@ body{
     margin-bottom: 0px;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(194, 216, 197);
+    background-image: url(images/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #main{
@@ -19,8 +22,9 @@ p{
 
 
 #img-div{
-    border: solid 5px rgb(143, 180, 148);
-   border-radius: 10%;
+    border: solid 5px rgba(51, 133, 153, 0.459);
+    box-shadow:1px 1px 30px rgb(51, 133, 153);  
+   border-radius: 4%;
    max-width: 580px;
    padding-top: 40px;
    padding-bottom: 20px;
@@ -35,9 +39,11 @@ p{
 .tribute-contents{
     text-align: left;
     margin: auto;
-    background-color: rgb(172, 216, 178);
+    background-color: rgba(172, 211, 216, 0.596);
+    border: solid 5px rgba(51, 133, 153 0.123);
+    box-shadow:1px 1px 30px rgb(51, 133, 153);  
     padding: 20px;
-
+    border-radius: 4%;
 }
 
 .tribute-contents ul{
@@ -47,16 +53,20 @@ max-width: 1000px;
 
 .tribute-contents li{
     font-size: 2.3vh;
-    text-decoration: underline rgb(175, 89, 89)  2px;
+    text-decoration: underline rgb(127, 125, 148)  2px;
 }
 
 footer{
     background-color: rgb(143, 180, 148);
     margin-top: 70px;
+    background-color: rgba(172, 211, 216, 0.596);
+    box-shadow:1px 1px 30px rgb(51, 133, 153);  
+    padding-bottom: 1px;
 }
 
 h1{
-    background-color: rgb(143, 180, 148);
+    background-color: rgba(143, 180, 148, 0);
+    
 }
 
 header{
@@ -66,6 +76,7 @@ header{
 #tribute-info{
     text-align: center;
     font-size: 2.3vh;
+    
 }
 
 
@@ -75,5 +86,5 @@ header{
 }
 
 #tribute-link:hover{
-    color: rgb(175, 89, 89);
+    color: rgb(9, 255, 0);
 }
