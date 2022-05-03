@@ -28,6 +28,9 @@ p{
    max-width: 580px;
    padding-top: 40px;
    padding-bottom: 20px;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
 }
 
 #image{
@@ -70,7 +73,9 @@ h1{
 }
 
 header{
-    margin: auto;
+    background-image: url(images/11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #tribute-info{
