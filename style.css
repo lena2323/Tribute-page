@@ -1,13 +1,14 @@
 
 body{
     margin: auto;
-    margin-top: 70px;
+    margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(194, 216, 197);
     background-image: url(images/11.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0%;
 }
 
 #main{
@@ -18,12 +19,13 @@ body{
 
 p{
     font-size: 2vh;
+    
 }
 
 
 #img-div{
-    border: solid 5px rgba(51, 133, 153, 0.459);
-    box-shadow:1px 1px 30px rgb(51, 133, 153);  
+    border: solid 5px rgba(51, 133, 153, 0);
+    box-shadow:1px 1px 30px rgba(166,210,223, 0.712);  
    border-radius: 4%;
    max-width: 580px;
    padding-top: 40px;
@@ -31,6 +33,7 @@ p{
    display: flex;
    flex-direction: column;
    margin: auto;
+   background-color: rgb(166,210,223, 0.418);
 }
 
 #image{
@@ -47,6 +50,9 @@ p{
     box-shadow:1px 1px 30px rgb(51, 133, 153);  
     padding: 20px;
     border-radius: 4%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .tribute-contents ul{
@@ -73,9 +79,12 @@ h1{
 }
 
 header{
-    background-image: url(images/11.jpg);
+    background-image: url(images/abstract_color_background_picture_8016-wide.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 70px;
+    border-bottom: 2px solid rgba(79, 141, 160, 0);
+   box-shadow:1px 1px 30px rgba(2, 92, 165, 0.712);  
 }
 
 #tribute-info{
@@ -92,4 +101,15 @@ header{
 
 #tribute-link:hover{
     color: rgb(9, 255, 0);
+}
+
+.rightColumn{
+   padding: 20px;
+   margin: 0px;
+   text-align: center;
+}
+
+.rightColumn img{
+    max-width: 500px;
+    border-radius: 20px;
 }
