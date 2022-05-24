@@ -58,7 +58,7 @@ figure{
 
 
 #img-caption{
-    display: block;
+    display: none;
 }
 
 
@@ -81,7 +81,6 @@ header{
     box-shadow:1px 1px 30px rgb(0, 0, 0);  
     border: solid 5px rgba(51, 133, 153 0.123);
     padding: 20px;
-    border-radius: 4%;
     margin-top: 70px;
     display: flex;
     flex-direction: row-reverse;
@@ -128,6 +127,11 @@ max-width: 1000px;
 .rightColumn img{
     max-width: 500px;
     border-radius: 20px;
+}
+
+.rightColumn p{
+    padding-bottom: 20px;
+
 }
 
 footer{
